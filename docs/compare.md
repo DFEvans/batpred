@@ -57,20 +57,20 @@ If you do not set an import or export rate for a particular tariff then your exi
     - id: 'cap_seg'
       name: 'Price cap import/SEG export'
       rates_import:
-        - rate: 24.86
+        - rate: 27.69
       rates_export:
         - rate: 4.1
     - id: 'eon_next_drive'
       name: 'Eon Next Drive import/Fixed export'
       rates_import:
-        - rate: 6.7
+        - rate: 7.5
           start: "00:00:00"
-          end: "07:00:00"
-        - rate: 24.86
-          start: "07:00:00"
+          end: "06:00:00"
+        - rate: 33.38
+          start: "06:00:00"
           end: "00:00:00"
       rates_export:
-        - rate: 16.5
+        - rate: 6.0
     - id: 'igo_fixed'
       name: 'Intelligent GO import/Fixed export'
       rates_import_octopus_url: 'https://api.octopus.energy/v1/products/INTELLI-VAR-24-10-29/electricity-tariffs/E-1R-INTELLI-VAR-24-10-29-{dno_region}/standard-unit-rates/'
